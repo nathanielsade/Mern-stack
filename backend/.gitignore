@@ -1,0 +1,23 @@
+# Ignore node_modules folder
+node_modules/
+
+# Ignore environment variables file
+.env
+
+# Ignore log files
+*.log
+
+# Ignore coverage files (if using testing tools that generate them)
+coverage/
+
+# Ignore IDE and editor configuration files
+.vscode/
+.idea/
+
+# Ignore OS-specific files
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# Ignore build and cache folders (optional)
+dist/
+.cache/
