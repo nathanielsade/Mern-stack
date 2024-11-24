@@ -3,8 +3,6 @@ import { createContext, useReducer } from 'react'
 export const WorkoutsContext = createContext()
 
 export const workoutsReducer = (state, action) => {
-  console.log('Reducer Action:', action); // Log the dispatched action
-  console.log('Current State:', state);
   switch (action.type) {
     case 'SET_WORKOUTS':
       return { 
