@@ -56,13 +56,14 @@ const deleteWorkout = async(req,res) =>{
 
 const updateWorkout = async(req,res)=>{
     const {id} = req.params
-    const updatedWorkout = await workout.findByIdAndUpdate({_id:id},{
-        ...req.body
-    })
+  const updatedWorkout = await Workout.findByIdAndUpdate(
+    { _id: id },
+    { ...req.body },
+    { new: true }
+  );
     if(!updatedWorkout){
         return res.status(404).json({err:'workout not found'})
     }
     res.status(200).json(updatedWorkout)
-
 }
 module.exports = {getworkouts,createworkout,getWorkout,deleteWorkout,updateWorkout}

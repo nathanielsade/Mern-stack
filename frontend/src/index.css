@@ -1,7 +1,7 @@
-/* google font */
+/* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
 
-/* layout */
+/* Layout */
 :root {
   --primary: #1aac83;
   --error: #e7195a;
@@ -37,7 +37,7 @@ header a {
   margin: 0 auto;
 }
 
-/* homepage */
+/* Homepage */
 .home {
   display: grid;
   grid-template-columns: 3fr 1fr;
@@ -65,18 +65,38 @@ header a {
   color: #555;
 }
 
-.workout-details span {
+/* Buttons positioned in the top right */
+.workout-details-buttons {
   position: absolute;
-  top: 20px;
-  right: 20px;
-  cursor: pointer;
-  background: #f1f1f1;
-  padding: 6px;
-  border-radius: 50%;
-  color: #333;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  gap: 10px;
 }
 
-/* new workout form */
+.material-symbols-outlined {
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+/* Styling for delete button */
+.delete-btn {
+  color: #e7195a;
+  /* Red for delete */
+}
+
+/* Styling for edit button */
+.edit-btn {
+  color: #1aac83;
+  /* Green for edit */
+}
+
+/* Optional hover effect */
+.material-symbols-outlined:hover {
+  opacity: 0.8;
+}
+
+/* New workout form */
 label,
 input {
   display: block;
