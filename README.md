@@ -41,14 +41,14 @@ cd Mern-stack
 #### Backend (Server)
 Navigate to the server directory and install the necessary dependencies:
 ```bash
-cd server
+cd backend
 npm install
 ```
 
 #### Frontend (Client)
 Navigate to the client directory and install the necessary dependencies:
 ```bash
-cd client
+cd frontend
 npm install
 ```
 
