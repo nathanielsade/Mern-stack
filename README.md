@@ -39,21 +39,21 @@ cd Mern-stack
 ### 2. Install Dependencies
 
 #### Backend (Server)
-Navigate to the server directory and install the necessary dependencies:
+Navigate to the backend directory and install the necessary dependencies:
 ```bash
 cd backend
 npm install
 ```
 
 #### Frontend (Client)
-Navigate to the client directory and install the necessary dependencies:
+Navigate to the frontend directory and install the necessary dependencies:
 ```bash
 cd frontend
 npm install
 ```
 
 ### 3. Configure Environment Variables
-In the server directory, create a `.env` file to store your environment variables, such as your MongoDB connection string.
+In the backend directory, create a `.env` file to store your environment variables, such as your MongoDB connection string.
 
 Example `.env` file content:
 ```bash
@@ -64,13 +64,13 @@ PORT=5000
 ### 4. Running the Project
 
 #### Backend
-To start the backend server, navigate to the server directory and run the following command:
+To start the backend server, navigate to the backend directory and run the following command:
 ```bash
 npm run dev
 ```
 
 #### Frontend
-To start the frontend React application, navigate to the client directory and run:
+To start the frontend React application, navigate to the frontend directory and run:
 ```bash
 npm start
 ```
