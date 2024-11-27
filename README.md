@@ -54,7 +54,7 @@ Copy code
 cd client
 npm install
 3. Configure Environment Variables
-In the server directory, create a .env file to store your environment variables such as your MongoDB connection string.
+In the server directory, create a .env file to store your environment variables, such as your MongoDB connection string.
 
 Example .env file content:
 
@@ -79,8 +79,3 @@ This will start the app and make it accessible at http://localhost:3000.
 
 Now, your full-stack workout tracker should be up and running!
 The backend will be accessible at http://localhost:5000.
-
-vbnet
-Copy code
-
-
