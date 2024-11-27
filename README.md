@@ -32,8 +32,8 @@ A simple MERN stack project for tracking workouts. Users can create, update, and
 ### 1. Clone the Repository
 To get started, clone the repository to your local machine:
 ```bash
-git clone <repository-url>
-cd <repository-name>
+git clone https://github.com/nathanielsade/Mern-stack.git
+cd Mern-stack
 ```
 
 ### 2. Install Dependencies
