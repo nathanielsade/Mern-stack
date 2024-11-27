@@ -17,7 +17,6 @@ A simple MERN stack project for tracking workouts. Users can create, update, and
 
 **Frontend:**  
 - React  
-- Axios
 
 **Backend:**  
 - Node.js  
