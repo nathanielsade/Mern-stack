@@ -35,47 +35,63 @@ A simple MERN stack project for tracking workouts. Users can create, update, and
 
 To get started, clone the repository to your local machine:
 
-```bash
-git clone <repository-url>
-cd <repository-name>
-2. Install Dependencies
-Backend (Server)
+git clone <repository-url> cd <repository-name>
+
+markdown
+Copy code
+
+### 2. Install Dependencies
+
+**Backend (Server)**
+
 Navigate to the server directory and install the necessary dependencies:
 
-bash
+cd server npm install
+
+arduino
 Copy code
-cd server
-npm install
-Frontend (Client)
+
+**Frontend (Client)**
+
 Navigate to the client directory and install the necessary dependencies:
 
-bash
-Copy code
-cd client
-npm install
-3. Configure Environment Variables
-In the server directory, create a .env file to store your environment variables, such as your MongoDB connection string.
+cd client npm install
 
-Example .env file content:
-
-bash
+typescript
 Copy code
-MONGODB_URI=mongodb://localhost:27017/workout-tracker
-PORT=5000
-4. Running the Project
-Backend
-To start the backend server, navigate to the server directory and run the following command:
 
-bash
+### 3. Configure Environment Variables
+
+In the `server` directory, create a `.env` file to store your environment variables, such as your MongoDB connection string.
+
+Example `.env` file content:
+
+MONGODB_URI=mongodb://localhost:27017/workout-tracker PORT=5000
+
+markdown
 Copy code
+
+### 4. Running the Project
+
+**Backend**
+
+To start the backend server, navigate to the `server` directory and run the following command:
+
 npm run dev
-Frontend
-To start the frontend React application, navigate to the client directory and run:
 
-bash
+css
 Copy code
-npm start
-This will start the app and make it accessible at http://localhost:3000.
 
-Now, your full-stack workout tracker should be up and running!
-The backend will be accessible at http://localhost:5000.
+**Frontend**
+
+To start the frontend React application, navigate to the `client` directory and run:
+
+npm start
+
+arduino
+Copy code
+
+This will start the app and make it accessible at `http://localhost:3000`.
+
+Now, your full-stack workout tracker should be up and running!  
+The backend will be accessible at `http://localhost:5000`.
