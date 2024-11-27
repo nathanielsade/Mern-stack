@@ -44,9 +44,10 @@ Navigate to the backend directory and install the necessary dependencies:
 cd backend
 npm install
 ```
-1. Install dotenv
-bashCopynpm install dotenv
-
+### 2.1. Install dotenv
+```bash
+npm install dotenv
+```
 #### Frontend (Client)
 Navigate to the frontend directory and install the necessary dependencies:
 ```bash
